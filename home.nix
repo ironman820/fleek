@@ -22,7 +22,6 @@
     pkgs.helix
     pkgs.chezmoi
     pkgs.glances
-    pkgs.conda
     # Fleek Bling
     pkgs.git
     pkgs.htop
