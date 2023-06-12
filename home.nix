@@ -22,6 +22,8 @@
     pkgs.helix
     pkgs.chezmoi
     pkgs.glances
+    pkgs.python3Full
+    pkgs.poetry
     # Fleek Bling
     pkgs.git
     pkgs.htop
