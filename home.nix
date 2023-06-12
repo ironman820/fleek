@@ -21,6 +21,7 @@
     # user selected packages
     pkgs.helix
     pkgs.chezmoi
+    pkgs.glances
     # Fleek Bling
     pkgs.git
     pkgs.htop

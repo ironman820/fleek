@@ -14,6 +14,7 @@ overlays: {}
 packages:
     - helix
     - chezmoi
+    - glances
 paths:
     - $HOME/bin
     - $HOME/.local/bin
