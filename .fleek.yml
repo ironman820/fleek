@@ -1,0 +1,34 @@
+aliases:
+    fleeks: cd ~/.local/share/fleek
+bling: high
+ejected: false
+flakedir: .local/share/fleek
+git:
+    autocommit: true
+    autopull: true
+    autopush: true
+    enabled: true
+min_version: 0.8.4
+name: Fleek Configuration
+overlays: {}
+packages:
+    - helix
+    - chezmoi
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
+programs:
+    - dircolors
+shell: bash
+systems:
+    - arch: x86_64
+      hostname: ironman-laptop
+      os: linux
+      username: ironman
+unfree: true
+users:
+    - email: 29488820+ironman820@users.noreply.github.com
+      name: Nicholas Eastman
+      ssh_private_key_file: ~/.ssh/github_home
+      ssh_public_key_file: ~/.ssh/github_home.pub
+      username: ironman
