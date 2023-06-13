@@ -24,6 +24,7 @@
     pkgs.glances
     pkgs.python3Full
     pkgs.poetry
+    pkgs.poppler_utils
     # Fleek Bling
     pkgs.git
     pkgs.htop

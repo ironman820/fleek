@@ -17,6 +17,7 @@ packages:
     - glances
     - python3Full
     - poetry
+    - poppler_utils
 paths:
     - $HOME/bin
     - $HOME/.local/bin
