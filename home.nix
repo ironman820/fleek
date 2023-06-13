@@ -26,6 +26,7 @@
     pkgs.poetry
     pkgs.poppler_utils
     pkgs.restic
+    pkgs.pv
     # Fleek Bling
     pkgs.git
     pkgs.htop

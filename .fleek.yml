@@ -19,6 +19,7 @@ packages:
     - poetry
     - poppler_utils
     - restic
+    - pv
 paths:
     - $HOME/bin
     - $HOME/.local/bin
