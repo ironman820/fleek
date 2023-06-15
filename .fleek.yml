@@ -14,6 +14,8 @@ aliases:
     pdi: podman images
     pdr: podman rmi
 bling: high
+blocklist: []
+byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
@@ -44,6 +46,7 @@ systems:
       hostname: ironman-laptop
       os: linux
       username: ironman
+track: nixos-unstable
 unfree: true
 users:
     - email: 29488820+ironman820@users.noreply.github.com
