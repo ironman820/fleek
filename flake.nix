@@ -35,14 +35,11 @@
           ./aliases.nix
           ./programs.nix
           # Host Specific configs
-          ./ironman-laptop/ironman-laptop.nix
-          ./ironman-laptop/user.nix
+          ./ironman-laptop/ironman.nix
+          ./ironman-laptop/custom.nix
           # self-manage fleek
           ({
            nixpkgs.overlays = [];
-           home.packages = [
-            fleek.packages.x86_64-linux.default
-          ];
           })
 
         ];
