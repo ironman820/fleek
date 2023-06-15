@@ -1,9 +1,9 @@
 { pkgs, misc, ... }: {
   # FEEL FREE TO EDIT: This file is NOT managed by fleek. 
   programs.bash = {
-    sessionVariables = {
-      EDITOR = "vim";
-    };
+    # sessionVariables = {
+    #   EDITOR = "vim";
+    # };
     shellAliases = {
       ca="chezmoi add";
       ce="chezmoi edit --apply";
