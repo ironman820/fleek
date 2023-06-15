@@ -2,7 +2,7 @@
   # FEEL FREE TO EDIT: This file is NOT managed by fleek. 
   programs.bash = {
     sessionVariables = {
-      EDITOR = "/usr/bin/vim";
+      EDITOR = "vim";
     };
     shellAliases = {
       ca="chezmoi add";
