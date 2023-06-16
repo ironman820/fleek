@@ -23,8 +23,6 @@
     
     "fleeks" = "cd ~/.local/share/fleek";
     
-    "htop" = "glances";
-    
     "pdi" = "podman images";
     
     "pdo" = "podman images | awk '{print \$3,\$2}' | grep '<none>' | awk '{print \$1}' | xargs -t podman rmi";
