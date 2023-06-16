@@ -27,6 +27,7 @@
     pkgs.poppler_utils
     pkgs.restic
     pkgs.pv
+    pkgs.age
     # Fleek Bling
     pkgs.git
     pkgs.htop
