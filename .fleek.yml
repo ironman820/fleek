@@ -15,8 +15,8 @@ aliases:
     pdr: podman rmi
 bling: high
 blocklist:
-  - vscode
-  - neovim
+    - vscode
+    - neovim
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
@@ -29,7 +29,6 @@ min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
-    - helix
     - chezmoi
     - python3Full
     - poetry
