@@ -3,5 +3,6 @@
   home.sessionVariables = {
     EDITOR = "vim";
   };
+  programs.bash.initExtra = "EDITOR=vim";
   programs.vim.defaultEditor = true;
 }
