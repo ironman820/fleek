@@ -19,7 +19,6 @@ bling: high
 blocklist:
     - vscode
     - neovim
-    - nano
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
@@ -33,8 +32,6 @@ name: Fleek Configuration
 overlays: {}
 packages:
     - chezmoi
-    - python3Full
-    - poetry
     - poppler_utils
     - restic
     - pv

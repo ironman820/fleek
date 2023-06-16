@@ -20,8 +20,6 @@
   home.packages = [
     # user selected packages
     pkgs.chezmoi
-    pkgs.python3Full
-    pkgs.poetry
     pkgs.poppler_utils
     pkgs.restic
     pkgs.pv
