@@ -30,7 +30,6 @@ overlays: {}
 packages:
     - helix
     - chezmoi
-    - glances
     - python3Full
     - poetry
     - poppler_utils
