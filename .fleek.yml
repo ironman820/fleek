@@ -18,7 +18,6 @@ aliases:
 bling: high
 blocklist:
     - vscode
-    - neovim
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
