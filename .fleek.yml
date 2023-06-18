@@ -15,7 +15,7 @@ aliases:
     pdi: podman images
     pdo: podman images | awk '{print \$3,\$2}' | grep '<none>' | awk '{print \$1}' | xargs -t podman rmi
     pdr: podman rmi
-bling: high
+bling: low
 blocklist:
     - vscode
     - neovim

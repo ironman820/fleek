@@ -29,14 +29,6 @@
     pkgs.htop
     pkgs.github-cli
     pkgs.glab
-    pkgs.fzf
-    pkgs.ripgrep
-    pkgs.lazygit
-    pkgs.jq
-    pkgs.yq
-    pkgs.neofetch
-    pkgs.btop
-    pkgs.cheat
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 
