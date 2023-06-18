@@ -19,11 +19,6 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.chezmoi
-    pkgs.poppler_utils
-    pkgs.restic
-    pkgs.pv
-    pkgs.age
     # Fleek Bling
     pkgs.git
     pkgs.htop

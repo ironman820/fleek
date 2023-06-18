@@ -15,6 +15,7 @@ aliases:
     pdi: podman images
     pdo: podman images | awk '{print \$3,\$2}' | grep '<none>' | awk '{print \$1}' | xargs -t podman rmi
     pdr: podman rmi
+    vim: nvim
 bling: high
 blocklist:
     - vscode
@@ -30,17 +31,17 @@ min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
-    - chezmoi
-    - poppler_utils
-    - restic
-    - pv
-    - age
+  # - chezmoi
+  # - poppler_utils
+  # - restic
+  # - pv
+  # - age
 paths:
     - $HOME/bin
     - $HOME/.local/bin
 programs:
     - dircolors
-    - vim
+  # - vim
 shell: bash
 systems:
     - arch: x86_64

@@ -31,6 +31,8 @@
     
     "pdr" = "podman rmi";
     
+    "vim" = "nvim";
+    
     # bat --plain for unformatted cat
     catp = "bat -P";
     

@@ -13,7 +13,6 @@
     programs.starship.enable = true;
 
   # User specified programs 
-    programs.dircolors.enable = true; 
-    programs.vim.enable = true;
+    programs.dircolors.enable = true;
 
 }
