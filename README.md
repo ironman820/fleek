@@ -37,6 +37,8 @@ Your actual aliases are listed below:
 
     ducks = "du -chs * 2>/dev/null | sort -rh | head -11";
 
+    fleek = "nix run github:ublue-os/fleek --";
+
     fleeks = "cd ~/.local/share/fleek";
 
     htop = "btop";
@@ -48,5 +50,3 @@ Your actual aliases are listed below:
     pdo = "podman images | awk '{print \$3,\$2}' | grep '<none>' | awk '{print \$1}' | xargs -t podman rmi";
 
     pdr = "podman rmi";
-
-    vim = "nvim";
