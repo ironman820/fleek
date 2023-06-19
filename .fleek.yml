@@ -37,6 +37,7 @@ packages:
     - age
     - just
     - git-filter-repo
+    - duf
 paths:
     - $HOME/bin
     - $HOME/.local/bin
