@@ -17,7 +17,6 @@ aliases:
     pdr: podman rmi
 bling: low
 blocklist:
-    - vscode
     - neovim
 byo_git: false
 ejected: false
