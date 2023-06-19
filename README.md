@@ -19,6 +19,8 @@ $ apply-$(hostname)
 ```
 
 Your actual aliases are listed below:
+    apply-ironman-laptop = "nix run --impure home-manager/master -- -b bak switch --flake .#ironman@ironman-laptop";
+
     ca = "chezmoi add";
 
     cc = "chezmoi cd";

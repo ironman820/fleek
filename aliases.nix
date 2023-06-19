@@ -1,6 +1,8 @@
 { pkgs, misc, ... }: {
   # DO NOT EDIT: This file is managed by fleek. Manual changes will be overwritten.
    home.shellAliases = {
+    "apply-ironman-laptop" = "nix run --impure home-manager/master -- -b bak switch --flake .#ironman@ironman-laptop";
+    
     "ca" = "chezmoi add";
     
     "cc" = "chezmoi cd";
