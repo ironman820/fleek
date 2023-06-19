@@ -19,7 +19,7 @@
     
     "ducks" = "du -chs * 2>/dev/null | sort -rh | head -11";
     
-    "fleek" = "nix run github:ublue-os/fleek:ae97433 --";
+    "fleek" = "nix run github:ublue-os/fleek --";
     
     "fleeks" = "cd ~/.local/share/fleek";
     
