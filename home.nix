@@ -25,6 +25,7 @@
     pkgs.pv
     pkgs.age
     pkgs.just
+    pkgs.git-filter-repo
     # Fleek Bling
     pkgs.git
     pkgs.htop

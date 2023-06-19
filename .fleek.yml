@@ -37,6 +37,7 @@ packages:
     - pv
     - age
     - just
+    - git-filter-repo
 paths:
     - $HOME/bin
     - $HOME/.local/bin
