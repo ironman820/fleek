@@ -35,6 +35,7 @@ packages:
     - restic
     - pv
     - age
+    - just
 paths:
     - $HOME/bin
     - $HOME/.local/bin
