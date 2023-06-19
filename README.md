@@ -37,7 +37,7 @@ Your actual aliases are listed below:
 
     ducks = "du -chs * 2>/dev/null | sort -rh | head -11";
 
-    fleek = "nix run github:ublue-os/fleek:0.9.12 --";
+    fleek = "nix run github:ublue-os/fleek:ae97433 --";
 
     fleeks = "cd ~/.local/share/fleek";
 
