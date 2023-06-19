@@ -19,7 +19,7 @@
     
     "ducks" = "du -chs * 2>/dev/null | sort -rh | head -11";
     
-    "fleek" = "nix run github:ublue-os/fleek --";
+    "fleek" = "nix run github:ublue-os/fleek:0.9.12 --";
     
     "fleeks" = "cd ~/.local/share/fleek";
     
@@ -32,5 +32,11 @@
     "pdo" = "podman images | awk '{print \$3,\$2}' | grep '<none>' | awk '{print \$1}' | xargs -t podman rmi";
     
     "pdr" = "podman rmi";
+    
+    # bat --plain for unformatted cat
+    catp = "bat -P";
+    
+    # replace cat with bat
+    cat = "bat";
     };
 }
