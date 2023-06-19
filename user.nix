@@ -6,6 +6,10 @@
       package = pkgs.tela-icon-theme;
       name = "Tela-black-dark";
     };
+    theme = {
+      package = pkgs.orchis-theme;
+      name = "Orchis-Dark-Compact";
+    };
   };
   home.sessionVariables = {
     EDITOR = "vim";
