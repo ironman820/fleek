@@ -27,6 +27,7 @@
     pkgs.just
     pkgs.git-filter-repo
     pkgs.duf
+    pkgs.birdtray
     # Fleek Bling
     pkgs.git
     pkgs.htop

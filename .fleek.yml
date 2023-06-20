@@ -39,6 +39,7 @@ packages:
     - just
     - git-filter-repo
     - duf
+    - birdtray
 paths:
     - $HOME/bin
     - $HOME/.local/bin
