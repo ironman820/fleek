@@ -45,6 +45,8 @@ Your actual aliases are listed below:
 
     nano = "vim";
 
+    nix-conf = "cd /etc/nixos";
+
     pdi = "podman images";
 
     pdo = "podman images | awk '{print \$3,\$2}' | grep '<none>' | awk '{print \$1}' | xargs -t podman rmi";
