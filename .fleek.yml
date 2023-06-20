@@ -41,6 +41,7 @@ packages:
     - duf
     - birdtray
     - teamviewer
+    - teams
 paths:
     - $HOME/bin
     - $HOME/.local/bin

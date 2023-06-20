@@ -29,6 +29,7 @@
     pkgs.duf
     pkgs.birdtray
     pkgs.teamviewer
+    pkgs.teams
     # Fleek Bling
     pkgs.git
     pkgs.htop
