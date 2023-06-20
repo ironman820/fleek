@@ -28,6 +28,7 @@
     pkgs.git-filter-repo
     pkgs.duf
     pkgs.birdtray
+    pkgs.teamviewer
     # Fleek Bling
     pkgs.git
     pkgs.htop
