@@ -30,6 +30,8 @@
     pkgs.birdtray
     pkgs.teamviewer
     pkgs.teams
+    pkgs.virt-viewer
+    pkgs.virt-manager
     # Fleek Bling
     pkgs.git
     pkgs.htop

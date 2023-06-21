@@ -42,6 +42,8 @@ packages:
     - birdtray
     - teamviewer
     - teams
+    - virt-viewer
+    - virt-manager
 paths:
     - $HOME/bin
     - $HOME/.local/bin
