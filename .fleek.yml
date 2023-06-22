@@ -45,6 +45,7 @@ packages:
     - virt-viewer
     - virt-manager
     - devbox
+    - nodejs_20
 paths:
     - $HOME/bin
     - $HOME/.local/bin
