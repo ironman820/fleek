@@ -32,6 +32,7 @@
     pkgs.teams
     pkgs.virt-viewer
     pkgs.virt-manager
+    pkgs.devbox
     # Fleek Bling
     pkgs.git
     pkgs.htop
