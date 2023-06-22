@@ -34,6 +34,7 @@
     pkgs.virt-manager
     pkgs.devbox
     pkgs.nodejs_20
+    pkgs.zip
     # Fleek Bling
     pkgs.git
     pkgs.htop

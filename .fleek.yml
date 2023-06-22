@@ -46,6 +46,7 @@ packages:
     - virt-manager
     - devbox
     - nodejs_20
+    - zip
 paths:
     - $HOME/bin
     - $HOME/.local/bin
