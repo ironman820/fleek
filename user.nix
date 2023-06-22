@@ -16,5 +16,8 @@
   };
   programs.bash.initExtra = "EDITOR=vim";
   programs.vim.defaultEditor = true;
-  services.syncthing.enable = true;
+  services.syncthing = {
+    enable = true;
+    tray.enable = true;
+  };
 }
