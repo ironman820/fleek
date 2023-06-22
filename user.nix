@@ -14,7 +14,11 @@
   home.sessionVariables = {
     EDITOR = "vim";
   };
-  programs.bash.initExtra = "EDITOR=vim";
+  programs.bash.initExtra = ''
+    EDITOR=vim
+    gpg-connect-agent /bye
+    export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+  '';
   programs.vim.defaultEditor = true;
   services.syncthing = {
     enable = true;
