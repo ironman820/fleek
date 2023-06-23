@@ -59,6 +59,10 @@ systems:
       hostname: ironman-laptop
       os: linux
       username: ironman
+    - arch: x86_64
+      hostname: e105-laptop
+      os: linux
+      username: niceastman
 track: nixos-unstable
 unfree: true
 users:
@@ -67,3 +71,8 @@ users:
       ssh_private_key_file: ~/.ssh/github_home
       ssh_public_key_file: ~/.ssh/github_home.pub
       username: ironman
+    - email: 29488820+ironman820@users.noreply.github.com
+      name: Nicholas Eastman
+      ssh_private_key_file: ~/.ssh/github_work
+      ssh_public_key_file: ~/.ssh/github_work.pub
+      username: niceastman
