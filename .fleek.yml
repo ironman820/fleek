@@ -48,6 +48,7 @@ packages:
   - nodejs_20
   - zip
   - networkmanagerapplet
+  - seahorse
 paths:
   - $HOME/bin
   - $HOME/.local/bin
