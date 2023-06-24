@@ -36,7 +36,6 @@
     pkgs.nodejs_20
     pkgs.zip
     pkgs.networkmanagerapplet
-    pkgs.gnome.seahorse
     # Fleek Bling
     pkgs.git
     pkgs.htop
