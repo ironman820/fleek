@@ -37,6 +37,7 @@
     pkgs.zip
     pkgs.networkmanagerapplet
     pkgs.xchm
+    pkgs.email
     # Fleek Bling
     pkgs.git
     pkgs.htop

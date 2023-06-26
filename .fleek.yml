@@ -49,6 +49,7 @@ packages:
     - zip
     - networkmanagerapplet
     - xchm
+    - email
 paths:
   - $HOME/bin
   - $HOME/.local/bin
