@@ -36,6 +36,7 @@
     pkgs.nodejs_20
     pkgs.zip
     pkgs.networkmanagerapplet
+    pkgs.xchm
     # Fleek Bling
     pkgs.git
     pkgs.htop

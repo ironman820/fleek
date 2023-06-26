@@ -31,23 +31,24 @@ min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
-  - chezmoi
-  - poppler_utils
-  - restic
-  - pv
-  - age
-  - just
-  - git-filter-repo
-  - duf
-  - birdtray
-  - teamviewer
-  - teams
-  - virt-viewer
-  - virt-manager
-  - devbox
-  - nodejs_20
-  - zip
-  - networkmanagerapplet
+    - chezmoi
+    - poppler_utils
+    - restic
+    - pv
+    - age
+    - just
+    - git-filter-repo
+    - duf
+    - birdtray
+    - teamviewer
+    - teams
+    - virt-viewer
+    - virt-manager
+    - devbox
+    - nodejs_20
+    - zip
+    - networkmanagerapplet
+    - xchm
 paths:
   - $HOME/bin
   - $HOME/.local/bin
