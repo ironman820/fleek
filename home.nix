@@ -9,6 +9,7 @@
       # Workaround for https://github.com/nix-community/home-manager/issues/2942
       allowUnfreePredicate = (_: true);
       
+      
     };
   };
 
@@ -38,6 +39,7 @@
     pkgs.networkmanagerapplet
     pkgs.xchm
     pkgs.email
+    pkgs.rnix-lsp
     # Fleek Bling
     pkgs.git
     pkgs.htop

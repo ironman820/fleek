@@ -1,32 +1,33 @@
 aliases:
-  ca: chezmoi add
-  cc: chezmoi cd
-  ce: chezmoi edit --apply
-  cf: chezmoi forget
-  ci: chezmoi init
-  cr: chezmoi re-add
-  cu: chezmoi update
-  df: duf
-  ducks: du -chs * 2>/dev/null | sort -rh | head -11
-  fleek: nix run github:ublue-os/fleek --
-  fleeks: cd ~/.local/share/fleek
-  htop: btop
-  nano: vim
-  nix-conf: cd /etc/nixos
-  pdi: podman images
-  pdo: podman images | awk '{print \$3,\$2}' | grep '<none>' | awk '{print \$1}' | xargs -t podman rmi
-  pdr: podman rmi
+    ca: chezmoi add
+    cc: chezmoi cd
+    ce: chezmoi edit --apply
+    cf: chezmoi forget
+    ci: chezmoi init
+    cr: chezmoi re-add
+    cu: chezmoi update
+    df: duf
+    ducks: du -chs * 2>/dev/null | sort -rh | head -11
+    fleek: nix run github:ublue-os/fleek --
+    fleeks: cd ~/.local/share/fleek
+    htop: btop
+    nano: vim
+    nix-conf: cd /etc/nixos
+    pdi: podman images
+    pdo: podman images | awk '{print \$3,\$2}' | grep '<none>' | awk '{print \$1}' | xargs -t podman rmi
+    pdr: podman rmi
+allow_broken: false
 bling: high
 blocklist:
-  - neovim
+    - neovim
 byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
-  autocommit: true
-  autopull: true
-  autopush: true
-  enabled: true
+    autocommit: true
+    autopull: true
+    autopush: true
+    enabled: true
 min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
@@ -50,32 +51,33 @@ packages:
     - networkmanagerapplet
     - xchm
     - email
+    - rnix-lsp
 paths:
-  - $HOME/bin
-  - $HOME/.local/bin
+    - $HOME/bin
+    - $HOME/.local/bin
 programs:
-  - dircolors
-  - vim
+    - dircolors
+    - vim
 shell: bash
 systems:
-  - arch: x86_64
-    hostname: ironman-laptop
-    os: linux
-    username: ironman
-  - arch: x86_64
-    hostname: e105-laptop
-    os: linux
-    username: niceastman
+    - arch: x86_64
+      hostname: ironman-laptop
+      os: linux
+      username: ironman
+    - arch: x86_64
+      hostname: e105-laptop
+      os: linux
+      username: niceastman
 track: nixos-unstable
 unfree: true
 users:
-  - email: 29488820+ironman820@users.noreply.github.com
-    name: Nicholas Eastman
-    ssh_private_key_file: ~/.ssh/github_home
-    ssh_public_key_file: ~/.ssh/github_home.pub
-    username: ironman
-  - email: 29488820+ironman820@users.noreply.github.com
-    name: Nicholas Eastman
-    ssh_private_key_file: ~/.ssh/github_work
-    ssh_public_key_file: ~/.ssh/github_work.pub
-    username: niceastman
+    - email: 29488820+ironman820@users.noreply.github.com
+      name: Nicholas Eastman
+      ssh_private_key_file: ~/.ssh/github_home
+      ssh_public_key_file: ~/.ssh/github_home.pub
+      username: ironman
+    - email: 29488820+ironman820@users.noreply.github.com
+      name: Nicholas Eastman
+      ssh_private_key_file: ~/.ssh/github_work
+      ssh_public_key_file: ~/.ssh/github_work.pub
+      username: niceastman
