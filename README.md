@@ -1,3 +1,5 @@
+***This repo is being archived as I have moved fully to NixOS and flakes.***
+
 # Fleek Configuration
 
 nix home-manager configs created by [fleek](https://github.com/ublue-os/fleek).
